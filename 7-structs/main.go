@@ -5,12 +5,14 @@ import (
 )
 
 type usuario struct {
-	nome  string
-	idade uint8
+	nome      string
+	sobrenome string
+	idade     uint8
 }
 
 func main() {
 	var u usuario
-	u.nome = "Leandro Schillreff"
+	u.nome = "Leandro"
+	u.sobrenome = "Schillreff"
 	u.idade = 25
 }

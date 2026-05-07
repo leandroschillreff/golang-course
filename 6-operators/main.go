@@ -39,9 +39,9 @@ func main() {
 	numero++
 	numero += 10
 	fmt.Println(numero)
-	numero --
+	numero--
 	numero -= 5
 
 	//Operador ternário
-	
+
 }
